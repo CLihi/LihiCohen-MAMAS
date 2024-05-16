@@ -144,19 +144,3 @@ class NumericalExpression
         return sum;
     }
 }
-
-class Program
-{
-    public static void Main()
-    {
-        long num = Convert.ToInt64(System.Console.ReadLine());
-        while (num != -199)
-        {
-            NumericalExpression nume = new NumericalExpression(num);
-            // System.Console.WriteLine(nume);
-            Console.WriteLine(nume.SumLetters());
-            num = Convert.ToInt64(System.Console.ReadLine());
-        }
-
-    }
-}
