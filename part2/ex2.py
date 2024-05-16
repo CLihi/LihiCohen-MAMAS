@@ -8,10 +8,3 @@ def pythagorean_triplet_by_sum(sum: int) -> None:
                 continue
             else:
                 print(f'{a}<{b}<{c}')
-
-
-if __name__ == '__main__':
-    sum = int(input('enter sum: '))
-    while sum != -1:
-        pythagorean_triplet_by_sum(sum)
-        sum = int(input('enter sum: '))
